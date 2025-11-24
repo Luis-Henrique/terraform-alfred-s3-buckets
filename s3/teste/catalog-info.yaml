@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: moonlight-s3--hom 
+  annotations:
+    moonlight.picpay/managed-by: alfred
+  labels:
+    moonlight.picpay/environment: "hom"
+    moonlight.picpay/module: "v2.4.2"
+    moonlight.picpay/bu: "bu-techcore"
+    moonlight.picpay/squad: "squad-command-center"
+    spec:
+  type: s3
+  lifecycle: "homolog"
+  owner: squad-command-center
+  
